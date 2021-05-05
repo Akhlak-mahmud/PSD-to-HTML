@@ -1,0 +1,260 @@
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    float: left;
+    padding: 26px 0px;
+    background-color: #f6f9f9
+
+}
+
+.logo{
+    width: 40%;
+    float: left;
+}
+
+.manu{
+    width: 60%;
+    float: left;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: #15a4fa;
+    padding: 5px 20px;
+}
+
+/* Banner Section */
+
+.banner{
+    width: 100%;
+    float: left;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    padding: 26px 0px;
+}
+
+.banner-main{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+
+}
+
+.banner-main h2{
+    color: white;
+    font-size: 110px;
+    font-weight: bold;
+}
+
+.banner-main span{
+    border-bottom: 2px solid #15a4fa;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.banner-main p{
+    font-size: 16px;
+    color: white;
+}
+.banner-btn{
+    background: transparent;
+    border: 1px solid #15a4fa;
+    padding: 10px 25px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+.banner-icon{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+/* Details Section */
+
+.details{
+    width: 100%;
+    float: left;
+    display:block;
+}
+
+.details-one{
+    color: #2d3950;
+    width: 70%;
+    text-align: center;
+    background-color: #f6f9f9;
+    margin: 0 auto;
+    padding: 40px ;
+}
+
+.details-two{
+    color: #999999;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+}
+
+/* Service Section*/
+
+.service{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+}
+.service-one{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.service-icon{
+    background-color: #15a4fa;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.service-one h2{
+    margin: 10px 0px;
+}
+.service-one p{
+    font: bold;
+    margin: 10px 0px;
+}
+
+.portfolio{
+    width: 100%;
+    float: left;
+    height: 500px;
+    background-color: #f6f9f9;
+}
+
+.portfolio-line h2{
+    color: #2d3950;
+    font-size: 20px bold;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.portfolio-line p{
+    color: #999999;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.portfolio-img{
+    margin: 5px;
+    margin-top: 40px;
+    padding-bottom: 70px;
+    display: block;
+}
+
+/* login  Section */
+
+.login{
+    width: 100%;
+    float: left;
+}
+.login-text{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 300px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.login-text a{
+    font-size: 50px;
+}
+.login-text b{
+    font-size: 5px;
+    padding-bottom: 50px;
+}
+
+.logout{
+    width: 100%;
+    float: left;
+    margin: 0 auto; 
+}
+
+.login-info{
+    text-align: center;
+    margin-top: 20px
+}
+
+.login-box{
+    padding: 20px;
+    height: 25px;
+}
+
+/*  Footer Section  */
+footer{
+    background-color: rgba(148, 146, 146, 0.363);
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+}
+.six{
+    width: 50%;
+    float: left;
+}
+.six h2{
+    text-align: center;
+    font-size: 23px;
+}
+.social-icon{
+    width: 50%;
+    float: left;
+}
+.social-icon ul{
+    list-style: none;
+    border-radius: 30px;
+}
+.social-icon ul li{
+    display:inline-block;
+    margin: 10px 20px;
+}
+.social-icon ul li a{
+    background-color: rgba(44, 76, 255, 0.815);
+    color:white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    /*   --------- transform: scale(1.5); --------   */
+}
+color #f6f9f9 
+      #15a4fa 
